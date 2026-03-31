@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+th {
+    background-color: #0078d4;
+    color: white;
+}
+
+td:hover {
+    background-color: #f0f0f0;
+}
+
+.ocupado {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.disponivel {
+    background-color: #4CAF50;
+    color: white;
+}
